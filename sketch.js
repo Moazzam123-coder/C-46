@@ -57,7 +57,9 @@ function draw() {
     StartButton.hide();
     QuitButton.hide();
   })
-  
+  QuitButton.mousePressed(()=>{
+    text("THANKS FOR PLAYING",displayWidth/3,displayHeight/2);
+  })
  /* Rbutton.mousePressed(()=>{
     Dev.velocityX = 4
   })
